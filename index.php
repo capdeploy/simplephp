@@ -7,9 +7,9 @@ Lastname: <input type="text" name="lname"><br>
 Email: <input type="text" name="email"><br>
 <input type="submit">
 </form>
-
-</body>
+  </body>
 </html>
+
 
 <?php
 $servername = "192.168.10.156";
@@ -26,3 +26,7 @@ try {
   echo "Connection failed: " . $e->getMessage();
 }
 ?>
+<br>
+<a href="dbinit.php">IF DB Error Click Here to Initialize the DB</a>
+<br>
+<a href="dropdb.php">Click here to drop DB</a>
