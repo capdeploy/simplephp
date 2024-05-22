@@ -1,15 +1,16 @@
 <html>  
 <body>
 
+ <div style="font-family:helvetica;">
 <form action="welcome.php" method="post">
-Firstname: <input type="text" name="fname"><br>
-Lastname: <input type="text" name="lname"><br>
+First Name: <input type="text" name="fname"><br>
+Last Name: <input type="text" name="lname"><br>
 Email: <input type="text" name="email"><br>
 <input type="submit">
 </form>
   </body>
 </html>
-
+</div>
 
 <?php
 $servername = "192.168.10.156";

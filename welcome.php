@@ -1,11 +1,13 @@
 <html>
 <body>
 
+<div style="font-family:helvetica;">
 Welcome <?php echo $_POST["fname"]; ?><sp>
 <?php echo $_POST["lname"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?>
 
 </body>
+</div>
 </html>
 
 <?php
