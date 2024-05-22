@@ -32,3 +32,5 @@ try {
 
 $conn = null;
 ?>
+<br>
+<a href="index.php">Click here to return HOME</a>

@@ -37,3 +37,4 @@ try {
     echo $sql . "<br>" . $e->getMessage();
   }
 ?>
+<a href="index.php">Click here to return HOME</a>
