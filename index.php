@@ -31,3 +31,5 @@ try {
 <a href="dbinit.php">IF DB Error Click Here to Initialize the DB</a>
 <br>
 <a href="dropdb.php">Click here to drop DB</a>
+<br>
+<a href="who.php">Click here to See Records</a>
