@@ -8,7 +8,7 @@
 
 <?php
 echo "<table style='border: solid 1px black;'>";
-echo "<tr><th>Firstname</th><th>Lastname</th></th><th>Email</th></tr>";
+echo "<tr><th>Firstname</th><th>Lastname</th></th><th>Email</th><th>Registration Date</th></tr>";
 
 class TableRows extends RecursiveIteratorIterator {
   function __construct($it) {
@@ -35,7 +35,7 @@ $dbname = "myDBPDO";
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $stmt = $conn->prepare("SELECT firstname, lastname, email FROM MyGuests");
+    $stmt = $conn->prepare("SELECT firstname, lastname, email, reg_date FROM MyGuests");
     $stmt->execute();
   
     // set the resulting array to associative
